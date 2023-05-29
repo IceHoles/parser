@@ -1,5 +1,5 @@
 
-// Generated from Arithmetic.g4 by ANTLR 4.13.0
+// Generated from .\Arithmetic.g4 by ANTLR 4.13.0
 
 #pragma once
 
@@ -50,6 +50,7 @@ public:
     virtual size_t getRuleIndex() const override;
     std::vector<StatementContext *> statement();
     StatementContext* statement(size_t i);
+    antlr4::tree::TerminalNode *EOF();
     std::vector<antlr4::tree::TerminalNode *> SEP();
     antlr4::tree::TerminalNode* SEP(size_t i);
 

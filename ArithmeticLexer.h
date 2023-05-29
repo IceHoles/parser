@@ -1,5 +1,5 @@
 
-// Generated from Arithmetic.g4 by ANTLR 4.13.0
+// Generated from .\Arithmetic.g4 by ANTLR 4.13.0
 
 #pragma once
 
@@ -9,7 +9,7 @@
 
 
 
-class ArithmeticLexer : public antlr4::Lexer {
+class  ArithmeticLexer : public antlr4::Lexer {
 public:
   enum {
     T__0 = 1, T__1 = 2, T__2 = 3, INT = 4, DOUBLE = 5, SEP = 6, NEWLINE = 7, 
@@ -47,3 +47,4 @@ private:
   // Individual semantic predicate functions triggered by sempred() above.
 
 };
+

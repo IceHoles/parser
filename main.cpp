@@ -9,7 +9,7 @@
 
 	
 int main() {
-	antlr4::ANTLRInputStream input("x = 2 * (3 + 4);");
+	antlr4::ANTLRInputStream input("x = 2 * (3 + 4);y = x * ( 7.2 - 1.2) / 3;");
     ArithmeticLexer lexer(&input);
     antlr4::CommonTokenStream tokens(&lexer);
     ArithmeticParser parser(&tokens);
